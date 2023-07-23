@@ -1,0 +1,116 @@
+body {
+    font-size: 15pt;
+    background-image:url('bg.jpg');
+    background-size:100%;
+}
+
+/*ulo*/
+
+@keyframes animMy{
+  0%{
+    text-shadow: 2px 2px 5px aqua;
+    color:green;
+  }
+  50%{
+    text-shadow: 2px 2px 5px orange;
+    color:aqua;
+  }
+  100%{
+    text-shadow: 2px 2px 5px aqua;
+    color:green;
+  }
+}
+
+@keyframes myAnim{
+  0%{
+    box-shadow: 2px 2px 5px orange;
+  }
+  25%{
+    box-shadow: 2px 2px 5px blue;
+  }
+  75%{
+    box-shadow: 2px 2px 5px green;
+  }
+  100%{
+    box-shadow: 2px 2px 5px orange;
+  }
+}
+
+.header{
+  height:90px;
+  position: static;
+  text-align: center;
+  border-radius:10px;
+  animation-name: myAnim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+h1{
+  font-family: times new roman;
+  font-weight:bold;
+  position:relative;
+  top:20px;
+  animation-name:animMy;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+
+/*tiyan*/
+.under{
+  position:relative;
+  top:50px;
+}
+
+/*tiyan 1*/
+
+@keyframes demonew{
+  0%{
+    text-shadow: 10px 10px 10px aqua;
+  }
+  50%{
+    text-shadow: 10px 10px 10px orange;
+    font-size: 80px;
+  }
+  100%{
+    text-shadow: 10px 10px 10px aqua;
+  }
+}
+
+@keyframes damolog{
+  0%{
+    text-shadow: 2px 2px 3px orange;
+  }
+  50%{
+    text-shadow: 2px 2px 3px red;
+    font-size: 19px;
+  }
+  100%{
+    text-shadow: 2px 2px 3px orange;
+  }
+}
+
+
+#p{
+  font-family: times new roman;
+  font-weight: bold;
+  position:relative;
+  color:aqua;
+  text-indent: 1cm;
+  animation-name: damolog;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+#p1{
+  position: relative;
+  top:50px;
+  animation-name: demonew;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  font-size: 100px;
+  text-align: center;
+}
+audio{
+  position: absolute;
+}
